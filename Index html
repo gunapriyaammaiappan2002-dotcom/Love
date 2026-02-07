@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You ❤️</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      background: #ffe6f0;
+    }
+    h1 {
+      color: #e60073;
+    }
+    button {
+      padding: 12px 25px;
+      font-size: 18px;
+      margin: 15px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    #yes {
+      background-color: #ff4da6;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>I love you ❤️</h1>
+  <p>Do you love me too? 🥺</p>
+
+  <button id="yes" onclick="showLove()">YES</button>
+
+  <script>
+    function showLove() {
+      alert("Yayyy! I knew it 💕 Happy Valentine’s Day 😘");
+    }
+  </script>
+
+</body>
+</html>
